@@ -1,0 +1,82 @@
+header,
+main,
+footer {
+  padding-left: 240px;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+#credits li,
+#credits li a {
+  color: white;
+}
+  main {
+    flex: 1 0 auto;
+  }
+    .card-icon{
+    padding: 30px !important;
+
+  }
+  .card{
+    padding: 35px;
+  }
+
+  i.large {
+    font-size: 5rem;
+}    
+@media only screen and (max-width: 1024px) {
+   .card{
+    padding:15px;
+  }
+  .card-icon{
+    padding: 20px !important;
+  }
+  }
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+
+
+#credits li,
+#credits li a {
+  color: white;
+}
+
+#credits li a {
+  font-weight: bold;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+  color: #BCC2E2;
+}
+
+.trigger{
+	margin-left:10px;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.side-nav a {
+    font-size: 2rem;
+}
+
+b,strong {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p {
+	font-size: 1.5rem;
+}
+ 
+}
